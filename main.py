@@ -39,7 +39,6 @@ def ESP():
                     pm.write_float(glow_manager + entity_glow * 0x38 + 0x14, float(1))
 
                     pm.write_int(glow_manager + entity_glow * 0x38 + 0x28, 1)
-                    pm.write_int(glow_manager + entity_glow * 0x38 + 0x29, 0)
 
                     time.sleep(0.01)
 
